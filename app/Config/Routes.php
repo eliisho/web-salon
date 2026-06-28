@@ -84,6 +84,7 @@ $routes->post('/prosesAddReservation', 'ReservationController::prosesAddReservat
 
 // transaction routes
 $routes->get('/transaction', 'TransactionController::index');
+$routes->get('/transaction/done/(:num)', 'TransactionController::markDone/$1');
 
 
 // Routes PDF 
