@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    background: radial-gradient(
+        circle, 
+        #f8f8f8 20%,
+        #fcf8eb 60%, 
+        #f8f5e1 100% 
+    );
+    min-height: 100vh;
+}
+
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 18px;
+    color: #fff; 
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.back-button i {
+    margin-right: 8px;
+}
+
+.back-button:hover {
+    background-color: rgba(255, 255, 255, 0.2); 
+    color: #fff;
+}
+
+
+#banner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(241, 241, 241, 0.329), #61400f60), url(spabanner.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-color: #333; 
+    color: #fff;
+    padding-left: 50px; 
+}
+
+.banner-text {
+    max-width: 600px; 
+}
+
+.banner-text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.banner-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #fff;
+}
+
+.services-pricelist-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+}
+
+.services {
+    width: 60%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.service-item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.service-item h2 {
+    color: #e67e22;
+}
+
+.service-item .duration {
+    color: #999;
+    font-weight: bold;
+}
+
+.pricelist {
+    width: 35%; 
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 20px; 
+    }
+
+.pricelist h2 {
+    color: #e67e22;
+    margin-bottom: 15px;
+}
+
+.pricelist p {
+    color: #555;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+
+.gallery-section {
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.gallery-section h2 {
+    color: #e67e22;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.gallery img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+
+@media (max-width: 768px) {
+    .services-pricelist-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services, .pricelist {
+        width: 100%; 
+    }
+}
+#footer {
+    background: #fff4e3;
+    padding: 20px 0; 
+    text-align: center; 
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.footer-text {
+    margin-bottom: 10px; 
+    color: #814d00;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+}
+
+.social-links .fa {
+    height: 30px;
+    width: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    border: 2px solid #814d00;
+    margin: 0 5px; 
+    color: #814d00;
+    cursor: pointer;
+    transition: 0.5s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%; 
+}
+
+.social-links .fa:hover {
+    background: #814d00;
+    color: #fff;
+    transform: translateY(-3px); 
+}
