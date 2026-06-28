@@ -24,8 +24,8 @@ This application is a web-based platform, designed to help a hair and spa salon 
 ![CodeIgniter](https://img.shields.io/badge/CodeIgniter-EF4223?style=flat&logo=codeigniter&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
 ## Installation
@@ -65,4 +65,4 @@ This application is a web-based platform, designed to help a hair and spa salon 
 ## Notes
 
 > This project was developed as a final course assignment for Web Programming class (3rd Semester, Dec 2024).  
-> The `.env` file and sensitive configuration are excluded from this repository.
+> The `env` file and sensitive configuration are excluded from this repository.
